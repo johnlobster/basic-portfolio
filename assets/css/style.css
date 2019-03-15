@@ -62,6 +62,7 @@ main {
     width: 960px;
     margin: 10px 50px;
     overflow: auto;
+    background-color: white;
 }
 #idPhoto {
     float:left;
@@ -80,11 +81,56 @@ footer {
     bottom: 0;
     color:white;
     
-    margin: 10px 50px 0 0 ;
+    margin: 10px 50px;
     padding: 0;
 }
 
 #footerText {
     padding: 10px 50% 10px ;
+    
+}
+
+/* additional styles for contact page */
+
+#contactInfo {
+    margin: 0 40px 0 40px;
+}
+#nameInput {
+    width: 880px;
+}
+
+#emlInput {
+    width: 880px;
+}
+
+#messageInput {
+    width: 880px;
+    height: 200px;
+}
+
+#sendButton {
+    padding: 10px;
+    background-color: #4aaaa5; /*teal */
+    margin: 10px 0;
+}
+
+/* additional styles for portfolio page */
+
+.portfolioItem{
+    width: 400px;
+    float: left;
+    position: relative;
+    margin: 10px;
+}
+
+.portfolioImage {
+    width: 400px;
+}
+.portfolioTitle {
+    position: absolute;
+    bottom: 10px;
+    background-color:#4aaaa5; /*teal */
+    color: white;
+    width: 400px;
     text-align: center;
 }
