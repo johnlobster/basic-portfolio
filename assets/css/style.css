@@ -8,12 +8,13 @@ body {
     background-image: "assets/images/leaves.png";
     background-repeat: repeat;
     background-color: #cccccc;
+    color: #777777;
 }
 header {
     background-color: white;
     position: relative;
-    height: 150px;
-
+    height: 175px;
+    width: 960px ;
     margin: 0 50px;
     overflow: auto;
 
@@ -25,7 +26,7 @@ header {
     color: white;
     position: absolute;
     left: 0;
-    top: 50%;
+    top: 30%;
   
 
 }
@@ -60,13 +61,18 @@ main {
     clear: all;
     position: relative;
     width: 960px;
-    margin: 10px 50px;
+    margin: 10px 50px 200px 50px;
     overflow: auto;
     background-color: white;
 }
+
+
+.contentBox {
+    margin: 10px 0 0 20px;
+}
 #idPhoto {
     float:left;
-    padding: 5px;
+    padding: 10px;
     width: 150px;
 }
 
@@ -76,18 +82,27 @@ main {
 }
 footer {
     width:960px;
-    background-color: grey;
+    background-color: #4aaaa5; /* teal */
     position: fixed;
     bottom: 0;
     color:white;
     
-    margin: 10px 50px;
-    padding: 0;
+    margin: 10px 0 0 0;
+    padding: 10px 0 0 0;
 }
 
+#footerBox {
+    padding: 10px 0 10px 50px;
+    background-color: #666666;
+    height: 20px;
+    /* position: relative; */
+}
 #footerText {
-    padding: 10px 50% 10px ;
-    
+    position: absolute;
+    left: 40%;
+    bottom: 0;
+    /* text-align: center; */
+    font-size: 50%;
 }
 
 /* additional styles for contact page */
@@ -105,7 +120,7 @@ footer {
 
 #messageInput {
     width: 880px;
-    height: 200px;
+    height: 150px;
 }
 
 #sendButton {
